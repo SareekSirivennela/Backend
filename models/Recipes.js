@@ -8,3 +8,4 @@ const CreateRecipe=mongoose.Schema({
     ImageURL:{type:String,require:true},
     CookingTime:{type:Number,require:true},
 })
+module.exports=mongoose.model('Recipe',CreateRecipe)
